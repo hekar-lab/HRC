@@ -1,0 +1,32 @@
+:root {
+    --theme: #FFF1E8;
+    --entry: #FFF1E8;
+    --primary: #000000;
+    --secondary: #5F574F;
+    --tertiary: #C2C3C7;
+    --content: #291814;
+    --code-block-bg: #291814;
+    --code-bg: #FFF1E8;
+    --border: #000000;
+    --radius: 0px;
+}
+
+/* .dark {
+    --theme: #101c7a;
+    --entry: #202062;
+    --primary: rgba(235, 235, 255, 0.96);
+    --secondary: rgba(235, 235, 255, 0.66);
+    --tertiary: rgba(1, 1, 5, 0.32);
+    --content: rgba(235, 235, 255, 0.82);
+    --hljs-bg: #2e2e33;
+    --code-bg: #37383e;
+    --border: #446;
+} */
+
+.profile img {
+    border-radius: 0%;
+}
+
+.chroma {
+    border: solid #000000 1px;
+}

@@ -1,0 +1,139 @@
+title: HRC
+languageCode: en-us
+paginate: 5
+theme: ["PaperMod"]
+
+buildFuture: false
+buildExpired: false
+enableInlineShortcodes: true
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: HEKAR Log
+  description: "HEKAR Ltd, Research Center"
+  keywords: [Blog, Portfolio, Experiment, Log]
+  author: Hekar Traumerei
+  DateFormat: "January 2, 2006"
+  defaultTheme: light
+  disableThemeToggle: true
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  label:
+    text: HEKAR Research Center
+
+  assets:
+    favicon: "/icons/icon.png"
+    favicon16x16: "/icons/icon16.png"
+    favicon32x32: "/icons/icon32.png"
+
+  # home-info mode
+  # homeInfoParams:
+  #   Title: "You're about to witness History"
+  #   Content: | 
+  #     - I have a great plan.
+  #     - Step 1: Choose a Millennium Problem.
+  #     - Step 2: Solve the Millennium Problem.
+  #     - Step 3: Profit.
+  #     -
+  #     - If this confuses you, check the [**About**](about) section.
+  #     - It should enlight you on my genius plan.
+
+  profileMode:
+    enabled: true
+    title: "Welcome to the **HRC**" # optional default will be site title
+    subtitle: "We search for computers that go *blip♪* and mayhap *bloop♪*"
+    imageUrl: "/img/hrc_logo.png" # optional
+    imageTitle: "The Curious Clumsy Crow, Mascot of the HRC" # optional
+    imageWidth: 360 # custom size
+    imageHeight: 360 # custom size
+    # buttons:
+    #   - name: Hub
+    #     url: "/posts"
+    #   - name: Archive
+    #     url: "/archive"
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/max_bovik"
+    - name: github
+      url: "https://github.com/hekar-lab"
+    - name: email
+      url: "mailto://hekar.mailbox@gmail.com"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/maxhr-0x90/TSaMP-Hugo/blob/main/content"
+  #   Text: "Something's fucky" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  math: true
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: hub
+      name: Hub
+      url: /posts/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+    
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # style: monokai
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
