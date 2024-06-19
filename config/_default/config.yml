@@ -41,9 +41,9 @@ params:
     text: HEKAR Research Center
 
   assets:
-    favicon: "/icons/icon.png"
-    favicon16x16: "/icons/icon16.png"
-    favicon32x32: "/icons/icon32.png"
+    favicon: "icons/icon.png"
+    favicon16x16: "icons/icon16.png"
+    favicon32x32: "icons/icon32.png"
 
   # home-info mode
   # homeInfoParams:
@@ -61,7 +61,7 @@ params:
     enabled: true
     title: "Welcome to the **HRC**" # optional default will be site title
     subtitle: "We search for computers that go *blip♪* and mayhap *bloop♪*"
-    imageUrl: "/img/hrc_logo.png" # optional
+    imageUrl: "img/hrc_logo.png" # optional
     imageTitle: "The Curious Clumsy Crow, Mascot of the HRC" # optional
     imageWidth: 360 # custom size
     imageHeight: 360 # custom size
