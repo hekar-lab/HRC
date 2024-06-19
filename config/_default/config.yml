@@ -84,10 +84,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  # editPost:
-  #   URL: "https://github.com/maxhr-0x90/TSaMP-Hugo/blob/main/content"
-  #   Text: "Something's fucky" # edit text
-  #   appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: "https://github.com/hekar-lab/HRC/blob/main/content"
+    Text: "Fix it." # edit text
+    appendFilePath: true # to append file path to Edit link
 
   math: true
 
