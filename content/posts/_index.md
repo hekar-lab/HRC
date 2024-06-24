@@ -1,5 +1,5 @@
 ---
-title: "Hub"
+title: "Hub 🌐"
 draft: false
 hideMeta: true
 ---

@@ -32,9 +32,9 @@ in a Broadway musical -- that is, unless it involves long and arduous mathematic
 
 ## The founders of HEKAR
 
-{{< figure src="hekar.png" title="Hekar Traumerei (maybe?), CEO of HEKAR Ltd (hopefully.)" >}}
+{{< figure src="hekar.png" title="Hekar Traumerei (maybe?), Founder of the HEKAR Institute (hopefully.)" >}}
 
-{{< figure src="not-hekar.png" title="Not-Hekar Not Traumerei, Everything but CEO of HEKAR Ltd" >}}
+{{< figure src="not-hekar.png" title="Not-Hekar Not Traumerei, Everything but the founder of the HEKAR Institute" >}}
 
 {{< figure src="3rd-hekar.png" title="Eyekar Traumereyes, The guy with a third eye" >}}
 
